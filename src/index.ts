@@ -3,8 +3,8 @@ import type {
   GtmQueryParams,
   GtmSupportOptions,
   LoadScriptOptions,
-} from '@gtm-support/core';
-import { GtmSupport as GtmPlugin, loadScript } from '@gtm-support/core';
+} from '@agrahamatfuji/core';
+import { GtmSupport as GtmPlugin, loadScript } from '@agrahamatfuji/core';
 import type { App, Plugin } from 'vue';
 import { getCurrentInstance, nextTick } from 'vue';
 import type {
@@ -221,7 +221,7 @@ export {
   GtmSupport,
   hasScript,
   loadScript,
-} from '@gtm-support/core';
+} from '@agrahamatfuji/core';
 export type {
   DataLayerObject,
   GtmIdContainer,
@@ -229,7 +229,7 @@ export type {
   GtmSupportOptions,
   LoadScriptOptions,
   TrackEventOptions,
-} from '@gtm-support/core';
+} from '@agrahamatfuji/core';
 export { GtmPlugin };
 export default _default;
 

@@ -1,6 +1,6 @@
 {
-  "name": "@gtm-support/vue-gtm",
-  "version": "3.1.0",
+  "name": "@aGrahamAtFuji/vue-gtm",
+  "version": "3.1.1",
   "description": "Simple implementation of Google Tag Manager for Vue",
   "scripts": {
     "clean": "rimraf coverage .eslintcache dist pnpm-lock.yaml node_modules",
@@ -25,24 +25,24 @@
     "./package.json": "./package.json"
   },
   "author": {
-    "name": "Christopher Quadflieg",
-    "email": "chrissi92@hotmail.de",
-    "url": "https://github.com/Shinigami92"
+    "name": "Aaron Graham",
+    "email": "agraham@fujifilm.com",
+    "url": "https://github.com/aGrahamAtFuji"
   },
   "contributors": [
     {
-      "name": "Manish Kumar",
-      "url": "https://github.com/mib200"
+      "name": "Aaron Graham",
+      "url": "https://github.com/aGrahamAtFuji"
     }
   ],
   "license": "MIT",
-  "homepage": "https://github.com/gtm-support/vue-gtm",
+  "homepage": "https://github.com/aGrahamAtFuji/vue-gtm",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gtm-support/vue-gtm.git"
+    "url": "https://github.com/aGrahamAtFuji/vue-gtm.git"
   },
   "bugs": {
-    "url": "https://github.com/gtm-support/vue-gtm/issues"
+    "url": "https://github.com/aGrahamAtFuji/vue-gtm/issues"
   },
   "keywords": [
     "analytics",
@@ -63,9 +63,6 @@
     "vue",
     "google"
   ],
-  "dependencies": {
-    "@gtm-support/core": "^3.0.1"
-  },
   "devDependencies": {
     "@types/node": "~22.3.0",
     "@typescript-eslint/eslint-plugin": "~7.18.0",
@@ -99,5 +96,9 @@
   "optionalDependencies": {
     "vue-router": ">= 4.4.1 < 5.0.0"
   },
-  "packageManager": "pnpm@9.7.0"
+  "packageManager": "pnpm@9.7.0",
+  "dependencies": {
+    "@aGrahamAtFuji/core": "github:aGrahamAtFuji/core",
+    "@agrahamatfuji/core": "3.0.2"
+  }
 }
